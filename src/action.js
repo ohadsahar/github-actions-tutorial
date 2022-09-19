@@ -1,5 +1,5 @@
 async function run() {
-  console.log("Hi bar and ran");
+  console.log("This is a test for our github actions!");
 }
 
 run();
