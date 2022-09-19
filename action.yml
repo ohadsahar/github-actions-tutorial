@@ -1,0 +1,12 @@
+name: "Thank you Action"
+description: 'Say "Thank you" when someone push'
+author: "Ohad Sahar"
+
+inputs:
+  GITHUB_TOKEN:
+    description: "Github token"
+    required: true
+
+runs:
+  using: "node16"
+  main: "dist/index.js"

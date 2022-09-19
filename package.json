@@ -1,0 +1,24 @@
+{
+  "name": "github-actions-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build src/action.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohadsahar/github-actions-tutorial.git"
+  },
+  "keywords": [],
+  "author": "Ohad Sahar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohadsahar/github-actions-tutorial/issues"
+  },
+  "homepage": "https://github.com/ohadsahar/github-actions-tutorial#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}
